@@ -31,7 +31,8 @@ nav {
     flex-direction: row;
     justify-content: flex-end;
     width: 100%;
-    height: 20px;
+
+    background-color: #33344669;
 }
 nav ul {
     display: flex;   
@@ -45,7 +46,7 @@ nav a {
     text-decoration: none;
 }
 nav a:hover {
-    color: var(--hover-white)
+    color: var(--yellow)
 }
 /* WELCOME */
 #welcome-section {
@@ -68,7 +69,7 @@ h1 {
     font-weight: 400;
     margin: 0;
 }
-h3 {
+h2 {
     font-weight: 400;
 }
 #vinjas {
@@ -81,7 +82,7 @@ h3 {
 #projects {
     background-color: var(--dark-blue);
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 #projects h2 {
     font-size: 26px;
@@ -91,12 +92,45 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 50px;
 }
 .project-tile {
     background-color: var(--yellow);
     width: 400px;
     margin: 10px;
 }
+.project-tile img {
+    width: 400px;
 
+}
+.project-tile:hover {
+    background-color: var(--hover-blue);
+}
+.project-tile a {
+    text-decoration: none;
+}
+h3 {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    padding-bottom: 10px;
+    color: var(--dark-blue);
+}
 
 /* CONTACT */
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--light-blue);
+    margin-bottom: 50px;
+}
+#github {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 10px 250px;
+    background-color: var(--yellow);
+    text-decoration: none;
+    color: var(--light-blue);
+}
