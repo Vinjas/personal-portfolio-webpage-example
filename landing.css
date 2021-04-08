@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+:root {
+    --light-blue: #333446;
+    --dark-blue: #232532;
+    --yellow: #ffae29;
+    --hover-blue: #5a5c69;
+    --features-blue: #414457;
+    --hover-white: #9fa2b6;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: var(--light-blue);
+    scroll-behavior: smooth;
+}
+body {
+    position: relative;
+    margin: 0;
+    width: 100%;
+}
+/*main {
+    padding-top: 50px;
+}*/
+nav {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    height: 20px;
+}
+nav ul {
+    display: flex;   
+}
+nav li {
+    list-style: none;
+    padding-right: 40px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    color: var(--hover-white)
+}
+/* WELCOME */
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.feature {
+    background-color: var(--dark-blue);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0;
+}
+h3 {
+    font-weight: 400;
+}
+#vinjas {
+    color: var(--yellow);
+    font-weight: 800;
+    font-size: 50px;
+}
+
+/* PROJECTS */
+#projects {
+    background-color: var(--dark-blue);
+    text-align: center;
+    padding-top: 20px;
+}
+#projects h2 {
+    font-size: 26px;
+    font-weight: 400;
+}
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.project-tile {
+    background-color: var(--yellow);
+    width: 400px;
+    margin: 10px;
+}
+
+
+/* CONTACT */
