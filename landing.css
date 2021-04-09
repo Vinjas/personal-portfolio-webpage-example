@@ -97,12 +97,21 @@ h2 {
 }
 .project-tile {
     background-color: var(--yellow);
-    width: 400px;
+    width: 350px;
     margin: 10px;
 }
 .project-tile img {
-    width: 400px;
+    width: 350px;
 
+}
+@media (max-width: 768px) {
+    .project-tile {
+        width: 180px;
+    }
+    .project-tile img {
+        width: 180px;
+    
+    }
 }
 .project-tile:hover {
     background-color: var(--hover-blue);
@@ -126,7 +135,7 @@ h3 {
     background-color: var(--light-blue);
     margin-bottom: 50px;
 }
-#github {
+#profile-link {
     font-size: 24px;
     font-weight: 400;
     padding: 10px 250px;
